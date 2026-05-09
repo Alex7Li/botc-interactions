@@ -57,6 +57,20 @@ def extract_extras(row: list[str]):
         "characters": [x for x in row if len(x) > 0]
     }
 
+def extract_jinx(row:list[str]):
+    jinxed_char_1, jinxed_char_2, jinx_type, jinx = row[:4]
+    return {
+        "interaction": jinx,
+        'interaction_type': jinx_type,
+        'characters': [jinxed_char_1, jinxed_char_2],
+    }
+
+def get_jinxes():
+    JINX_URL = "https://docs.google.com/spreadsheets/d/1yr7TwGFHO371FwtwsNq_SFWkwvxdvU8sou5e_an_Bi8/gviz/tq?tqx=out:csv"
+    response = requests.get(f"{JINX_URL}&sheet=JINXLIST")
+    reader = csv.reader(response.text.split('\n')[1:])
+    return [extract_jinx(row) for row in reader]
+
 outputs = {}
 base_url = "https://docs.google.com/spreadsheets/d/1KBF5DurN0zq8eSLuh3u2Lg2w7e6Fr7N4B5qzc-wRO4U/gviz/tq?tqx=out:csv"
 for tab in ["Matchups", "Hermit"]:
@@ -85,6 +99,7 @@ for tab in ["Extra"]:
         output.append(extract_extras(row))
     outputs[tab] = output
 
+outputs['Jinxes'] = get_jinxes()
 for name, output in outputs.items():
     json_filename = f"./{name.lower()}.json"
     print(f"printing {json_filename}")

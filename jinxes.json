@@ -1,0 +1,1114 @@
+[
+    {
+        "interaction": "If the Princess nominated & executed a player on their 1st day, no one dies to the Al-Hadikhia tonight.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Al-Hadikhia",
+            "Princess"
+        ]
+    },
+    {
+        "interaction": "If the Alchemist has the Boffin ability, the Alchemist does not learn what ability the Demon has.",
+        "interaction_type": "Good Auto Win",
+        "characters": [
+            "Alchemist",
+            "Boffin"
+        ]
+    },
+    {
+        "interaction": "An Alchemist-Marionette has no Marionette ability & the Marionette is in play.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Alchemist",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": "An Alchemist-Mastermind has no Mastermind ability & the Mastermind is not-in-play.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Alchemist",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": "If the Alchemist has the Organ Grinder ability, the Organ Grinder is in play. If both are sober, both are drunk.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Alchemist",
+            "Organ Grinder"
+        ]
+    },
+    {
+        "interaction": "An Alchemist-Spy has no Spy ability & a Spy is in play. After each execution, a living Alchemist-Spy may publicly guess a living player as the Spy. If correct, the Demon must choose the Spy tonight.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Alchemist",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]",
+        "interaction_type": "Good Auto Win",
+        "characters": [
+            "Alchemist",
+            "Summoner"
+        ]
+    },
+    {
+        "interaction": "An Alchemist-Widow has no Widow ability & a Widow is in play. After each execution, a living Alchemist-Widow may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Alchemist",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": "An Alchemist-Wraith has no Wraith ability & a Wraith is in play. After each execution, a living Alchemist-Wraith may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Alchemist",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": "If the Demon has the Cult Leader ability, they can’t turn good due to this ability.",
+        "interaction_type": "Evils Turn Good, ST Choice",
+        "characters": [
+            "Boffin",
+            "Cult Leader"
+        ]
+    },
+    {
+        "interaction": "The Demon cannot have the Drunk ability.",
+        "interaction_type": "Feelsbad, ST Choice",
+        "characters": [
+            "Boffin",
+            "Drunk"
+        ]
+    },
+    {
+        "interaction": "If the Demon has the Goon ability, they can’t turn good due to this ability.",
+        "interaction_type": "Evils Turn Good, ST Choice",
+        "characters": [
+            "Boffin",
+            "Goon"
+        ]
+    },
+    {
+        "interaction": "The Demon cannot have the Ogre ability.",
+        "interaction_type": "Evils Turn Good, ST Choice",
+        "characters": [
+            "Boffin",
+            "Ogre"
+        ]
+    },
+    {
+        "interaction": "The Demon cannot have the Politician ability.",
+        "interaction_type": "Evils Turn Good, ST Choice",
+        "characters": [
+            "Boffin",
+            "Politician"
+        ]
+    },
+    {
+        "interaction": "If there is a spare token, the Boffin can give the Demon the Village Idiot ability.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Boffin",
+            "Village Idiot"
+        ]
+    },
+    {
+        "interaction": "If the Kazali turns the Bounty Hunter into a Minion, an evil Townsfolk is not created.",
+        "interaction_type": "Setup, Feelsbad",
+        "characters": [
+            "Bounty Hunter",
+            "Kazali"
+        ]
+    },
+    {
+        "interaction": "If the Philosopher gains the Bounty Hunter ability, a Townsfolk might turn evil.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Bounty Hunter",
+            "Philosopher"
+        ]
+    },
+    {
+        "interaction": "If the Organ Grinder is causing eyes closed voting, the Butler may raise their hand to vote but their vote is only counted if their master voted too.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Butler",
+            "Organ Grinder"
+        ]
+    },
+    {
+        "interaction": "If the Cannibal gains the Butler ability, the Cannibal learns this.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Cannibal",
+            "Butler"
+        ]
+    },
+    {
+        "interaction": "If the Juggler guesses on their first day and dies by execution, tonight the living Cannibal learns how many guesses the Juggler got correct.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Cannibal",
+            "Juggler"
+        ]
+    },
+    {
+        "interaction": "If the Cannibal nominated, executed, & killed the Princess today, the Demon doesn’t kill tonight.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Cannibal",
+            "Princess"
+        ]
+    },
+    {
+        "interaction": "If the Cannibal gains the Zealot ability, the Cannibal learns this.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Cannibal",
+            "Zealot"
+        ]
+    },
+    {
+        "interaction": "The Cerenovus may choose to make a player mad that they are the Goblin.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Cerenovus",
+            "Goblin"
+        ]
+    },
+    {
+        "interaction": "Only 1 jinxed character can be in play.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Heretic",
+            "Baron"
+        ]
+    },
+    {
+        "interaction": "The Demon cannot have the Heretic ability.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Heretic",
+            "Boffin"
+        ]
+    },
+    {
+        "interaction": "Only 1 jinxed character can be in play.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Heretic",
+            "Godfather"
+        ]
+    },
+    {
+        "interaction": "Only 1 jinxed character can be in play.",
+        "interaction_type": "Clarifications, Evil Auto Win",
+        "characters": [
+            "Heretic",
+            "Lleech"
+        ]
+    },
+    {
+        "interaction": "Only 1 jinxed character can be in play.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Heretic",
+            "Pit-Hag"
+        ]
+    },
+    {
+        "interaction": "Only 1 jinxed character can be in play.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Heretic",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": "Only 1 jinxed character can be in play.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Heretic",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": "The Kazali can not choose the King to become a Minion if a Choirboy is in play.",
+        "interaction_type": "Setup, No Ability",
+        "characters": [
+            "Kazali",
+            "Choirboy"
+        ]
+    },
+    {
+        "interaction": "The Kazali can choose that the Goon player is one of their evil Minions.",
+        "interaction_type": "Setup, Feelsbad",
+        "characters": [
+            "Kazali",
+            "Goon"
+        ]
+    },
+    {
+        "interaction": "If the Kazali chooses the Damsel to become a Minion, and a Huntsman is in play, a good player becomes the Damsel.",
+        "interaction_type": "Setup, No Ability",
+        "characters": [
+            "Kazali",
+            "Huntsman"
+        ]
+    },
+    {
+        "interaction": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+        "interaction_type": "Feelsbad, Clarifications",
+        "characters": [
+            "Kazali",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": "The Kazali can choose that the Soldier player is one of their evil Minions.",
+        "interaction_type": "Setup, Clarifications",
+        "characters": [
+            "Kazali",
+            "Soldier"
+        ]
+    },
+    {
+        "interaction": "If Legion is created, all evil players become Legion. If Legion is in play, the Engineer starts knowing this but has no ability.",
+        "interaction_type": "Setup",
+        "characters": [
+            "Legion",
+            "Engineer"
+        ]
+    },
+    {
+        "interaction": "If Legion is created, all evil players become Legion. If Legion is in play, the Hatter has no ability.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Legion",
+            "Hatter"
+        ]
+    },
+    {
+        "interaction": "If Legion died by execution today, Legion keeps their ability, but the Minstrel might learn they are Legion.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Legion",
+            "Minstrel"
+        ]
+    },
+    {
+        "interaction": "The Politician might register as evil to Legion.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Legion",
+            "Politician"
+        ]
+    },
+    {
+        "interaction": "If the Preacher chooses Legion, Legion keeps their ability, but the Preacher might learn they are Legion.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Legion",
+            "Preacher"
+        ]
+    },
+    {
+        "interaction": "The Zealot might register as evil to Legion.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Legion",
+            "Zealot"
+        ]
+    },
+    {
+        "interaction": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Banshee dies & gains their ability.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Banshee"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan nominates and executes the Exorcist-chosen player, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Farmer uses their ability but does not die.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Farmer"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan is in play and the Grandchild dies by execution, evil wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Grandmother"
+        ]
+    },
+    {
+        "interaction": "The Leviathan cannot enter play after day 5.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Leviathan",
+            "Hatter"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan nominates and executes an Innkeeper-protected player, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Innkeeper"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan is in play, and at least 1 player is dead, the King learns an alive character each night.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "King"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan and the Mayor are alive on day 5 & no execution occurs, good wins.",
+        "interaction_type": "No Death At Night, No Ability",
+        "characters": [
+            "Leviathan",
+            "Mayor"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan nominates and executes the Monk-protected player, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Monk"
+        ]
+    },
+    {
+        "interaction": "The Leviathan cannot enter play after day 5.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Leviathan",
+            "Pit-Hag"
+        ]
+    },
+    {
+        "interaction": "Each night*, the Leviathan chooses an alive player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": "If the Leviathan nominates and executes the Soldier, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Leviathan",
+            "Soldier"
+        ]
+    },
+    {
+        "interaction": "If the Hatter dies & the Demon chooses Lil' Monsta, they also choose a Minion to become.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Lil' Monsta",
+            "Hatter"
+        ]
+    },
+    {
+        "interaction": "If Lil' Monsta & the Poppy Grower are alive, Minions wake one by one, until one of them chooses to take the Lil' Monsta token.",
+        "interaction_type": "Clarifications, No Ability",
+        "characters": [
+            "Lil' Monsta",
+            "Poppy Grower"
+        ]
+    },
+    {
+        "interaction": "If the Psychopath is babysitting Lil' Monsta, they die when executed.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Lil' Monsta",
+            "Psychopath"
+        ]
+    },
+    {
+        "interaction": "If Lil' Monsta dies with 5 or more players alive, the Scarlet Woman babysits Lil' Monsta for the rest of the game.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Lil' Monsta",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": "If the Vizier is babysitting Lil' Monsta, they die when executed.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Lil' Monsta",
+            "Vizier"
+        ]
+    },
+    {
+        "interaction": "If the Mastermind is alive and the Lleech host dies by execution, the Lleech lives but loses their ability.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Lleech",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": "If the Slayer slays the Lleech host, the host dies.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Lleech",
+            "Slayer"
+        ]
+    },
+    {
+        "interaction": "The Magician wakes with Legion and might register as evil. Legion knows if a Magician is in play, but not which player it is.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Magician",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": "If the Magician is alive, the Storyteller chooses which Minion babysits Lil' Monsta. ",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Magician",
+            "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": "If the Magician is alive, the Demon doesn't know which neighbor is the Marionette.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Magician",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed.",
+        "interaction_type": "No Ability, Grim Peekers",
+        "characters": [
+            "Magician",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": "If the Vizier is in play, the Magician has no ability but is immune to the Vizier's ability.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Magician",
+            "Vizier"
+        ]
+    },
+    {
+        "interaction": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed.",
+        "interaction_type": "No Ability, Grim Peekers",
+        "characters": [
+            "Magician",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": "After each execution, the living Magician may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight.",
+        "interaction_type": "No Ability, Grim Peekers",
+        "characters": [
+            "Magician",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": "If the Marionette thinks that they are the Balloonist, an Outsider might have been added during setup.",
+        "interaction_type": "Setup",
+        "characters": [
+            "Marionette",
+            "Balloonist"
+        ]
+    },
+    {
+        "interaction": "The Marionette does not learn that a Damsel is in play.",
+        "interaction_type": "No Ability, Clarifications",
+        "characters": [
+            "Marionette",
+            "Damsel"
+        ]
+    },
+    {
+        "interaction": "If the Marionette thinks that they are the Huntsman, the Damsel was added during setup.",
+        "interaction_type": "Setup",
+        "characters": [
+            "Marionette",
+            "Huntsman"
+        ]
+    },
+    {
+        "interaction": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+        "interaction_type": "Setup",
+        "characters": [
+            "Marionette",
+            "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Marionette",
+            "Poppy Grower"
+        ]
+    },
+    {
+        "interaction": "The Marionette does not learn 3 not in-play characters. The Demon learns an extra 3 instead.",
+        "interaction_type": "Clarifications, No Ability",
+        "characters": [
+            "Marionette",
+            "Snitch"
+        ]
+    },
+    {
+        "interaction": "The Wraith does not wake with the Marionette.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Marionette",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": "If the Al-Hadikhia dies by execution, and the Mastermind is alive, the Al-Hadikhia chooses 3 good players tonight: if all 3 choose to live, evil wins. Otherwise, good wins.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Mastermind",
+            "Al-Hadikhia"
+        ]
+    },
+    {
+        "interaction": "A Mastermind that has their ability keeps it if the Vigormortis dies.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Mastermind",
+            "Vigormortis"
+        ]
+    },
+    {
+        "interaction": "The Chambermaid can detect if the Mathematician will wake tonight.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Mathematician",
+            "Chambermaid"
+        ]
+    },
+    {
+        "interaction": "The Mathematician might learn if the Drunk's ability yielded false info or failed to work properly.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Mathematician",
+            "Drunk"
+        ]
+    },
+    {
+        "interaction": "The Mathematician might learn if the Lunatic attacks a different player than the real Demon attacked.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Mathematician",
+            "Lunatic"
+        ]
+    },
+    {
+        "interaction": "The Mathematician might learn if the Marionette's ability yielded false info or failed to work properly.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Mathematician",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": "If the Recluse registers as evil to the Ogre, the Ogre learns that they are evil.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Ogre",
+            "Recluse"
+        ]
+    },
+    {
+        "interaction": "If the Pit-Hag turns an evil player into the Cult Leader, they can't turn good due to their own ability.",
+        "interaction_type": "Evils Turn Good",
+        "characters": [
+            "Pit-Hag",
+            "Cult Leader"
+        ]
+    },
+    {
+        "interaction": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Pit-Hag",
+            "Damsel"
+        ]
+    },
+    {
+        "interaction": "If the Pit-Hag turns an evil player into the Goon, they can't turn good due to their own ability.",
+        "interaction_type": "Evils Turn Good",
+        "characters": [
+            "Pit-Hag",
+            "Goon"
+        ]
+    },
+    {
+        "interaction": "If the Pit-Hag turns an evil player into the Ogre, they can't turn good due to their own ability.",
+        "interaction_type": "Evils Turn Good",
+        "characters": [
+            "Pit-Hag",
+            "Ogre"
+        ]
+    },
+    {
+        "interaction": "If the Pit-Hag turns an evil player into the Politician, they can't turn good due to their own ability.",
+        "interaction_type": "Evils Turn Good",
+        "characters": [
+            "Pit-Hag",
+            "Politician"
+        ]
+    },
+    {
+        "interaction": "If there is a spare token, the Pit-Hag can create an extra Village Idiot. If so, the drunk Village Idiot might change.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Pit-Hag",
+            "Village Idiot"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Baron ability, up to two players become Outsiders.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Baron"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Boomdandy ability, a player becomes the Boomdandy.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Boomdandy"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Evil Twin ability, a player becomes the Evil Twin.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Evil Twin"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Fearmonger ability, a Minion gains it, and learns this.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Fearmonger"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Goblin ability, a Minion gains it, and learns this.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Goblin"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Marionette ability, one of the Demon's good neighbors becomes the Marionette.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Scarlet Woman ability, a Minion gains it, and learns this.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Plague Doctor",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Spy ability, a Minion gains it, and learns this.",
+        "interaction_type": "No Ability, Grim Peekers",
+        "characters": [
+            "Plague Doctor",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": "If the Storyteller would gain the Wraith ability, a Minion gains it, and learns this.",
+        "interaction_type": "No Ability, Grim Peekers",
+        "characters": [
+            "Plague Doctor",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": "The Recluse might register as the Demon to the Sage.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Recluse",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": "During a riot, if the Storyteller is nominated, players vote. If they are \"about to die\", the game ends. If not, they nominate again.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Atheist"
+        ]
+    },
+    {
+        "interaction": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Banshee dies & gains their ability.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Banshee"
+        ]
+    },
+    {
+        "interaction": "If Riot nominates and executes the Exorcist-chosen player, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Farmer uses their ability but does not die.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Farmer"
+        ]
+    },
+    {
+        "interaction": "If Riot is in play and the Grandchild dies by execution, evil wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Grandmother"
+        ]
+    },
+    {
+        "interaction": "If Riot nominates and executes an Innkeeper-protected player, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Innkeeper"
+        ]
+    },
+    {
+        "interaction": "If Riot is in play, and at least 1 player is dead, the King learns an alive character each night.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "King"
+        ]
+    },
+    {
+        "interaction": "The Mayor may choose to stop the riot. If they do so when only 1 Riot is alive, good wins. Otherwise, evil wins.",
+        "interaction_type": "No Death At Night, No Ability",
+        "characters": [
+            "Riot",
+            "Mayor"
+        ]
+    },
+    {
+        "interaction": "If Riot nominates and executes the Monk-protected player, good wins.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Monk"
+        ]
+    },
+    {
+        "interaction": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Riot",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": "If Riot nominates and executes the Soldier, good wins.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Riot",
+            "Soldier"
+        ]
+    },
+    {
+        "interaction": "If there would be two Demons, one of which was the Scarlet Woman, the Scarlet Woman becomes the Scarlet Woman again.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Scarlet Woman",
+            "Al-Hadikhia"
+        ]
+    },
+    {
+        "interaction": "If there would be two Demons, one of which was the Scarlet Woman, the Scarlet Woman remains the Scarlet Woman.",
+        "interaction_type": "Clarifications, Feelsbad",
+        "characters": [
+            "Scarlet Woman",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": "If the Spy is (or has been) in play, the Damsel is poisoned.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Spy",
+            "Damsel"
+        ]
+    },
+    {
+        "interaction": "The Spy registers as evil to the Ogre.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Spy",
+            "Ogre"
+        ]
+    },
+    {
+        "interaction": "If the Poppy Grower has their ability, the Spy does not see the Grimoire.",
+        "interaction_type": "Grim Peekers, No Ability",
+        "characters": [
+            "Spy",
+            "Poppy Grower"
+        ]
+    },
+    {
+        "interaction": "The Summoner registers as the Demon to the Clockmaker.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Summoner",
+            "Clockmaker"
+        ]
+    },
+    {
+        "interaction": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+        "interaction_type": "Good Auto Win",
+        "characters": [
+            "Summoner",
+            "Courtier"
+        ]
+    },
+    {
+        "interaction": "If the living Summoner is removed from play, the Storyteller has the Summoner ability.",
+        "interaction_type": "Good Auto Win",
+        "characters": [
+            "Summoner",
+            "Engineer"
+        ]
+    },
+    {
+        "interaction": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Summoner",
+            "Hatter"
+        ]
+    },
+    {
+        "interaction": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Summoner",
+            "Kazali"
+        ]
+    },
+    {
+        "interaction": "If Legion is summoned, all evil players become Legion. ",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Summoner",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": "If a Lord of Typhon is summoned, they must neighbor a Minion & their other neighbor becomes an evil Minion.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Summoner",
+            "Lord of Typhon"
+        ]
+    },
+    {
+        "interaction": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+        "interaction_type": "Setup",
+        "characters": [
+            "Summoner",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Summoner",
+            "Pit-Hag"
+        ]
+    },
+    {
+        "interaction": "If the Poppy Grower is alive on the 3rd night, the Summoner chooses which Demon but not which player.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Summoner",
+            "Poppy Grower"
+        ]
+    },
+    {
+        "interaction": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Summoner",
+            "Preacher"
+        ]
+    },
+    {
+        "interaction": "The Summoner may summon a Pukka on the 2nd night instead of the 3rd.",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Summoner",
+            "Pukka"
+        ]
+    },
+    {
+        "interaction": "If the Summoner summons a dead player into the Zombuul, the Zombuul has already \"died once\".",
+        "interaction_type": "Just For Fun",
+        "characters": [
+            "Summoner",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": "The Storyteller doesn't declare the Vizier is in play.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Vizier",
+            "Alsaahir"
+        ]
+    },
+    {
+        "interaction": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Vizier",
+            "Courtier"
+        ]
+    },
+    {
+        "interaction": "The Vizier wakes with the Fearmonger, learns who they choose and cannot choose to immediately execute that player.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Vizier",
+            "Fearmonger"
+        ]
+    },
+    {
+        "interaction": "The Storyteller doesn't declare the Vizier is in play.",
+        "interaction_type": "No Ability",
+        "characters": [
+            "Vizier",
+            "Investigator"
+        ]
+    },
+    {
+        "interaction": "",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Vizier",
+            "Politician"
+        ]
+    },
+    {
+        "interaction": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+        "interaction_type": "Feelsbad",
+        "characters": [
+            "Vizier",
+            "Preacher"
+        ]
+    },
+    {
+        "interaction": "The Zealot might register as evil to the Vizier.",
+        "interaction_type": "Evil Auto Win",
+        "characters": [
+            "Vizier",
+            "Zealot"
+        ]
+    },
+    {
+        "interaction": "If the Vortox kills the Banshee, all players learn that the Banshee has died.",
+        "interaction_type": "Clarifications",
+        "characters": [
+            "Vortox",
+            "Banshee"
+        ]
+    },
+    {
+        "interaction": "If the Widow is (or has been) in play, the Damsel is poisoned.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Widow",
+            "Damsel"
+        ]
+    },
+    {
+        "interaction": "If the Poppy Grower has their ability, the Widow does not see the Grimoire.",
+        "interaction_type": "Grim Peekers",
+        "characters": [
+            "Widow",
+            "Poppy Grower"
+        ]
+    },
+    {
+        "interaction": "If the Exorcist chooses the Yaggababble, the Yaggababble does not kill tonight.",
+        "interaction_type": "No Death At Night",
+        "characters": [
+            "Yaggababble",
+            "Exorcist"
+        ]
+    }
+]
